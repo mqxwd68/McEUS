@@ -1,4 +1,8 @@
-weights/
+!weights/
+!weights/*/
+
 *.pt
 *.pth
-weights.zip
+*.zip
+weights/**/*.pt
+weights/**/*.pth

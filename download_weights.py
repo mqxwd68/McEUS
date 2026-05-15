@@ -55,18 +55,14 @@ def extract_weights():
 
 
 def main():
-    # 1. Check if the target directory already exists
-    if os.path.exists(TARGET_DIR) and os.path.isdir(TARGET_DIR):
-        print(f"✅ Directory '{TARGET_DIR}' already exists. Setup is already complete.")
-        return
 
-    # 2. Download the zip file if it doesn't exist locally
+    # Download the zip file if it doesn't exist locally
     if not os.path.exists(FILE_NAME):
         download_with_progress()
     else:
         print(f"✅ '{FILE_NAME}' already exists locally. Skipping download.")
 
-    # 3. Extract the archive
+    # Extract the archive
     if os.path.exists(FILE_NAME):
         extract_weights()
 

@@ -1,0 +1,4 @@
+weights/
+*.pt
+*.pth
+weights.zip

@@ -1,3 +1,4 @@
+![logo](imgs/logo.png)
 # McEUS: Multi-class Endoscopic UltraSound Dataset & Pseudo-Labeling Pipeline
 
 This repository contains the official dataset samples and source code for our submission to a journal of medical imaging: **"McEUS: A Multi-Class Endoscopic Ultrasound Dataset and Weakly Supervised Segmentation Pipeline via Flow-Guided and Multi-Detector SAM2 Pseudo-Labeling"**.
